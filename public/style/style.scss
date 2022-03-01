@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500&family=Titillium+Web:wght@300&display=swap");
+
+// font-family: 'Hind', sans-serif;
+// font-family: 'Titillium Web', sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import "_header.scss";
+@import "_footer.scss";
+@import "_contact.scss";
+@import "_addContact.scss";
+@import "_filter.scss";
+
+.app {
+  background-color: white;
+  padding: 1rem;
+  height: 100vh;
+
+  .app-wrap {
+    min-height: 100%;
+    margin: 0rem auto;
+    width: 50%;
+    background-color: rgb(245, 244, 244);
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: 0 2px 2px black;
+
+    .main-content {
+      margin: 1rem auto;
+      padding-bottom: 4rem;
+    }
+  }
+}
