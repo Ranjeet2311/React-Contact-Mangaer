@@ -39,7 +39,7 @@ function Contact({ person, id, removeContact }) {
       className="contact-wrap"
     >
       <div className="contact">
-        <h2 style={{ color: iconColor ? "tomato" : null }}>
+        <h2 style={{ color: iconColor ? "tomato" : "#c31432" }}>
           <span>
             <PersonRoundedIcon style={{ color: iconColor ? "tomato" : null }} />
           </span>
