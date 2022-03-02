@@ -49,13 +49,12 @@
 }
 
 .contact-wrap {
-  background-color: #f3f3f3;
+  background-color: #fdfdfd;
   width: 90%;
   border-radius: 0.5rem;
   margin: 0.4rem auto;
   padding: 0.5rem;
   position: relative;
-  background-image: url("https://www.transparenttextures.com/patterns/polonez-pattern.png");
 }
 
 .contact-wrap .contact {
